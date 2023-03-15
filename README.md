@@ -149,7 +149,7 @@ Capstone-Project-1
 - GitHub: [Ansar Ibrahim](https://github.com/AnsarIbrahim)
 - Twitter: [Ansar Ibrahim](https://twitter.com/ansaradheeb)
 - LinkedIn: [Ansar Ibrahim](https://linkedin.com/in/ansar-ibrahim-61447424a/)
-- 
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
