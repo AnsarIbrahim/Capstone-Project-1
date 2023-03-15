@@ -674,6 +674,11 @@ a {
     padding: 10px;
     margin: 0;
     flex-wrap: wrap;
+    cursor: pointer;
+  }
+
+  .list-prog1:hover {
+    border: 1px solid #fff;
   }
 
   .insidemain {
