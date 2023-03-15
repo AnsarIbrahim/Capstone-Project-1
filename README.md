@@ -8,6 +8,7 @@
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
+  - [Loom Video](#loom)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -24,13 +25,12 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Portfolio-desktop-version <a name="about-project"></a>
-
-
+# 📖 Capstone-Project-1 <a name="about-project"></a>
 **Capstone-Project-1** is a website that displays my Techinical skills and projects that i have done.
 
-
 **Link to online version of Capstone-Project-1** is in [Live Demo](#live-demo)
+
+**Loom Video of this Capstone-project-1** is in [Loom Video](#loom) 
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -76,6 +76,11 @@
 - **Transition**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- Loom -->
+## Loom Video <a name="loom"></a>
+
+- [Loom Link](https://www.loom.com/share/97dcdd84a78c4b039488ecf48e47aabd)
 
 <!-- LIVE DEMO -->
 
