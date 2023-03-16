@@ -387,8 +387,10 @@ a {
 
 .list-prog {
   flex-direction: column;
-  padding: 3%;
+  width: 90%;
   gap: 10px;
+  margin-top: -2%;
+  margin-bottom: 3%;
 }
 
 .list-prog1 {
@@ -519,10 +521,13 @@ a {
   font-weight: 500;
   font-size: 20px;
   line-height: 20px;
-  margin-bottom: 5%;
-  gap: 10px;
+  gap: 70px;
   padding: 5%;
   width: 80%;
+}
+
+.foot-cont > p {
+  width: 50%;
 }
 
 .right {
