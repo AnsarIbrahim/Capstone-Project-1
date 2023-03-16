@@ -382,7 +382,7 @@ a {
   font-weight: 400;
   font-size: 30px;
   line-height: 28px;
-  margin-top: 5%;
+  margin-top: 4%;
 }
 
 .list-prog {
@@ -528,10 +528,16 @@ a {
 
 .foot-cont > p {
   width: 50%;
+  text-align: justify;
+}
+
+.al {
+  background-color: var(--primary);
+  color: #fff;
 }
 
 .right {
-  margin-bottom: 5%;
+  margin-bottom: 1%;
 }
 
 @media (min-width: 786px) {
