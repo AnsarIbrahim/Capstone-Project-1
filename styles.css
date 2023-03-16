@@ -387,8 +387,8 @@ a {
 
 .list-prog {
   flex-direction: column;
-  padding: 10%;
-  gap: 30px;
+  padding: 3%;
+  gap: 10px;
 }
 
 .list-prog1 {
@@ -450,6 +450,7 @@ a {
   font-weight: 400;
   font-size: 30px;
   line-height: 28px;
+  margin-top: 5%;
 }
 
 .speakers1 {
@@ -492,7 +493,7 @@ a {
   font-weight: 600;
   font-size: 15px;
   line-height: 25px;
-  color: #000;
+  color: #d3d3d3;
 }
 
 .partner {
@@ -521,6 +522,7 @@ a {
   margin-bottom: 5%;
   gap: 10px;
   padding: 5%;
+  width: 80%;
 }
 
 .right {
@@ -573,7 +575,7 @@ a {
     flex-direction: row;
     display: flex;
     gap: 20px;
-    padding: 0 190px 0 0;
+    padding: 0 68px 0 0;
   }
 
   .head-cont ul li a {
