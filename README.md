@@ -150,7 +150,6 @@ Capstone-Project-1
 - Twitter: [Ansar Ibrahim](https://twitter.com/ansaradheeb)
 - LinkedIn: [Ansar Ibrahim](https://linkedin.com/in/ansar-ibrahim-61447424a/)
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
