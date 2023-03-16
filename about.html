@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script
+      src="https://kit.fontawesome.com/a3673060fd.js"
+      crossorigin="anonymous"
+    ></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OSCARS-AWARDS-2023</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <div class="head-cont">
+          <ul>
+            <li>
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li><a href="#">English</a></li>
+            <li><a href="#">My Page</a></li>
+            <li><a href="#">Logout</a></li>
+          </ul>
+        </div>
+        <div class="desktop">
+          <div class="brand">
+            <a href="index.html"
+              ><img src="assests/logo/logo.png" alt="logo.img"
+            /></a>
+          </div>
+          <nav>
+            <ul>
+              <li><a href="index.html" id="about">Main</a></li>
+              <li><a href="#main">Program</a></li>
+              <li><a href="#main1">Logo</a></li>
+              <li><a href="#past">Past Show</a></li>
+              <li id="news"><a href="#conta">Contacts</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div class="mob">
+        <i class="fa-solid fa-bars menu" id="menu" onclick="openNav()"></i>
+        <div class="brand">
+          <a href="#main"><img src="assests/logo/logo.png" alt="logo.img" /></a>
+        </div>
+      </div>
+      <div id="sideNav">
+        <i class="fa-solid fa-x close" onclick="closeNav()"></i>
+        <nav>
+          <ul>
+            <li><a href="index.html" id="home" onclick="closeNav()">Main</a></li>
+            <li><a href="#main" onclick="closeNav()">Program</a></li>
+            <li><a href="#main1" onclick="closeNav()">Logo</a></li>
+            <li><a href="#past" onclick="closeNav()">Past Show</a></li>
+            <li><a href="#contu" onclick="closeNav()">Contacts</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="main" class="main flex-center">
+        <h1>
+          Oscar 2023 awards <br />
+          winers & nominess
+        </h1>
+        <div class="mainp flex-center">
+          <p>
+            The Academy Awards, better known as the Oscars,[1] are awards for
+            artistic and technical merit for the global film industry. The
+            awards are regarded by many as the most prestigious, significant
+            awards in the entertainment industry in the United States.
+          </p>
+        </div>
+        <div class="maincont flex-center">
+          <p>
+            Please contact us per Email for nay further questions about
+            OSCARS-AWARDS-2023!
+          </p>
+          <span
+            ><ul>
+              oscar-support@ao.uscourts.gov
+            </ul></span
+          >
+        </div>
+      </section>
+
+      <section id="main1" class="main1 flex-center">
+        <div class="mainlogo flex-center">
+          <h2>
+            Oscar 2023 awards <br />
+            winers & nominess Logo
+          </h2>
+          <hr class="line" />
+          <p>
+            MGM art director Cedric Gibbons designed a statuette of a knight
+            standing on a reel of film gripping a crusader's sword.
+          </p>
+          <img src="assests/logo/logo.png" alt="logo-img" />
+        </div>
+      </section>
+
+      <section class="past flex-center" id="past">
+        <div class="pastaward flex-center">
+          <h2>See the past Oscar Awards</h2>
+          <hr class="line" />
+          <p>
+            Take a look at the past year Oscar Awards which took place in Los
+            Angeles California, U.S.
+          </p>
+          <div class="imgact flex-center">
+            <div class="past1">
+              <div class="pastimg flex-center">
+                <h2>2022</h2>
+                <p>Oscar Awards</p>
+              </div>
+            </div>
+            <div class="past2">
+              <div class="pastimg flex-center">
+                <h2>2022</h2>
+                <p>Oscar Awards</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="contact flex-center al" id="conta">
+      <div class="foot-cont">
+        <img src="assests/logo/logo.png" alt="img">
+        <p>THE 95TH ACADEMY AWARDS | 2023
+          Dolby Theatre at Ovation Hollywood
+          Sunday, March 12, 2023
+          Honoring movies released in 2022</p>
+      </div>
+      <p class="right">&copy; 2023 All Rights Reserved</p>
+    </footer>
+    <script src="Java-script/pop-up.js"></script>
+  </body>
+</html>

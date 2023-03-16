@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <script src="https://kit.fontawesome.com/a3673060fd.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles.css" />
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OSCARS-AWARDS-2023</title>
+</head>
+
+<body>
+  <header>
+    <div class="header">
+      <div class="head-cont">
+        <ul>
+          <li>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </li>
+          <li><a href="#">English</a></li>
+          <li><a href="#">My Page</a></li>
+          <li><a href="#">Logout</a></li>
+        </ul>
+      </div>
+      <div class="desktop">
+        <div class="brand">
+          <a href="#home1"><img src="assests/logo/logo.png" alt="logo.img" /></a>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="about.html" id="about">About</a></li>
+            <li><a href="#home2">Program</a></li>
+            <li><a href="#">Join</a></li>
+            <li><a href="#partner">Sponsor</a></li>
+            <li><a href="#">News</a></li>
+            <li id="news"><a href="#">CC Campaign</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <div class="mob">
+      <i class="fa-solid fa-bars menu" id="menu" onclick="openNav()"></i>
+      <div class="brand">
+        <a href="#home1"><img src="assests/logo/logo.png" alt="logo.img" /></a>
+      </div>
+    </div>
+    <div id="sideNav">
+      <i class="fa-solid fa-x close" onclick="closeNav()"></i>
+      <nav>
+        <ul>
+          <li><a href="#home1" id="home" onclick="closeNav()">Home</a></li>
+          <li><a href="about.html" id="about" onclick="closeNav()">About</a></li>
+          <li><a href="#home2" onclick="closeNav()">Program</a></li>
+          <li><a href="#" onclick="closeNav()">Join</a></li>
+          <li><a href="#partner" onclick="closeNav()">Sponsor</a></li>
+          <li><a href="#" onclick="closeNav()">News</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="home1">
+      <div class="home-cont">
+        <div class="home-txt">
+          <h2>"Oscar 2023 awards"</h2>
+          <h1 class="head-bg">95th Oscars
+            In Memoriam Pays
+            2023</h1>
+        </div>
+        <div class="home-p flex-center">
+          <p>"I'd like to be remembered as somebody who entertained," the late, great Angela Lansbury once said,
+            "who took one out of oneself for a few minutes, or a few hours,</p>
+        </div>
+        <div class="home-time">
+          <p class="date">Sunday, March 12, 2023</p>
+          <p>@Dolby Theatre at Ovation Hollywood</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="home2" class="main flex-center">
+      <h2>Main Program</h2>
+      <hr class="line">
+      <div class="list-prog flex-center">
+        <article class="list-prog1 bg-color flex-center">
+          <div class="insidemain flex-center">
+            <i class="fa-sharp fa-solid fa-book-open-reader"></i>
+            <h3>Lecture</h3>
+            <p>Listen to the speakers from various countries
+              about the messages of sharing and opening.</p>
+          </div>
+        </article>
+        <article class="bg-color list-prog1">
+          <div class="insidemain flex-center">
+            <i class="fa-brands fa-accusoft"></i>
+            <h3>CC Exhibition</h3>
+            <p>Appreciate various creations applying
+              CC license of artists, organized from Art Center</p>
+          </div>
+        </article>
+        <article class="bg-color list-prog1">
+          <div class="insidemain flex-center">
+            <i class="fa-regular fa-comments"></i>
+            <h3>Forum</h3>
+            <p>Have the time to share your thoughts
+              and opinions with experts for each topic.</p>
+          </div>
+        </article>
+        <article class="bg-color list-prog1">
+          <div class="insidemain flex-center">
+            <i class="fa-solid fa-code-branch"></i>
+            <h3>Workshop</h3>
+            <p>Try creating your own work using open
+              source license rather than just watching at it.</p>
+          </div>
+        </article>
+        <article class="bg-color list-prog1">
+          <div class="insidemain flex-center">
+            <i class="fa-solid fa-gears"></i>
+            <h3>CC Ignite</h3>
+            <p>get opportunities to network with CC
+              affiliates around the world, also after the summit.</p>
+          </div>
+        </article>
+      </div>
+      <button type="button" name="join" class="btn-join">Join the Program</button>
+      <a class="see-pro"><u>THE WHOLE PROGRAM</u></a>
+      </div>
+    </section>
+
+    <section class="speakers flex-center" id="speakers">
+      <h2>Featured Speakers</h2>
+      <hr class="line">
+      <div class="speakers1" id="contspeak">
+        <!-- This item now in java-script -->
+      </div>
+      <button type="button" name="join" class="btn">MORE <i class="fas fa-angle-down down-arrow"></i></button>
+    </section>
+
+    <section class="partner flex-center" id="partner">
+      <h2>Partner</h2>
+      <hr class="line">
+      <div class="partner-link flex-center">
+        <a href="#"><img src="assests/sponcers/Pfizer.svg.png" alt="pfz-img"></a>
+        <a href="#"><img src="assests/sponcers/disney.png" alt="disney-img"></a>
+        <a href="#"><img src="assests/sponcers/Rolex_logo.svg.png" alt="rolex-img"></a>
+      </div>
+    </section>
+  </main>
+  <footer class="contact flex-center">
+    <div class="foot-cont">
+      <img src="assests/logo/logo.png" alt="img">
+      <p>THE 95TH ACADEMY AWARDS | 2023
+        Dolby Theatre at Ovation Hollywood
+        Sunday, March 12, 2023
+        Honoring movies released in 2022</p>
+    </div>
+    <p class="right">&copy; 2023 All Rights Reserved</p>
+  </footer>
+  <script src="Java-script/pop-up.js"></script>
+</body>
+
+</html>
