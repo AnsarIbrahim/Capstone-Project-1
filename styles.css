@@ -575,7 +575,7 @@ a {
     flex-direction: row;
     display: flex;
     gap: 20px;
-    padding: 0 68px 0 0;
+    margin-right: 8%;
   }
 
   .head-cont ul li a {
